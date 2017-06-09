@@ -2,12 +2,8 @@
 
 ## About
 
-
 Application that provides a list of items within a variety of categories as well as provide a user registration and authentication system.
 Registered users  have the ability to post, edit and delete their own items.
-
-
-## In This Repo
 
 This project has one main Python module itemCatalogProject.py which runs the Flask application. A SQL database is created using the database_setup.py. The Flask application uses stored HTML (ninja2) with Bootstrap4 templates on the front-end of the application.
 
