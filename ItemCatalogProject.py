@@ -242,9 +242,9 @@ def new_item():
 @app.route('/catalog/<int:category_id>/<int:item_id>/edit',
            methods=['GET', 'POST'])
 def edit_item(category_id, item_id):
-    edited_item = session.query(Item).filter_by(id=item_id).one()
     if 'username' not in login_session:
         return redirect('/login')
+    edited_item = session.query(Item).filter_by(id=item_id).one()
     if edited_item.user_id != login_session['user_id']:
         return "<script>function myFunction(){alert('You are not authorized " \
                "to edit this item. Please create your own item " \
