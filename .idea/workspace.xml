@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6b28753-d9f7-4050-9163-3b00d5166faf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ItemCatalogProject.py" afterPath="$PROJECT_DIR$/ItemCatalogProject.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/editItem.html" afterPath="$PROJECT_DIR$/templates/editItem.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,10 +59,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemCatalogProject.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ItemCatalogProject.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ItemCatalogProject.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
+                <state relative-caret-position="2250">
                   <caret line="246" column="65" lean-forward="false" selection-start-line="246" selection-start-column="65" selection-end-line="246" selection-end-column="65" />
                   <folding>
                     <element signature="e#0#90#0" expanded="true" />
@@ -92,11 +92,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="deleteItem.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="deleteItem.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/deleteItem.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+                <state relative-caret-position="234">
+                  <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
@@ -128,7 +128,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/login.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="733">
@@ -168,11 +168,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="editItem.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="editItem.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/editItem.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="468">
+                  <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -214,7 +214,6 @@
         <option value="$PROJECT_DIR$/templates/items.html" />
         <option value="$PROJECT_DIR$/templates/header.html" />
         <option value="$PROJECT_DIR$/templates/deleteItem.html" />
-        <option value="$PROJECT_DIR$/templates/editItem.html" />
         <option value="$PROJECT_DIR$/templates/newItem.html" />
         <option value="$PROJECT_DIR$/templates/item.html" />
         <option value="$PROJECT_DIR$/templates/publicItem.html" />
@@ -225,6 +224,7 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/login_functions.py" />
         <option value="$PROJECT_DIR$/ItemCatalogProject.py" />
+        <option value="$PROJECT_DIR$/templates/editItem.html" />
       </list>
     </option>
   </component>
@@ -842,26 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/editItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/items.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/deleteItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -940,14 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -956,14 +932,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ItemCatalogProject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="2250">
           <caret line="246" column="65" lean-forward="false" selection-start-line="246" selection-start-column="65" selection-end-line="246" selection-end-column="65" />
           <folding>
             <element signature="e#0#90#0" expanded="true" />
             <element signature="e#1127#4645#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/deleteItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
