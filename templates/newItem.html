@@ -1,0 +1,40 @@
+{% extends 'main.html' %}
+{% block content %}
+{% include 'header.html' %}
+
+
+<div class="row">
+<div class="col-md-12">
+    <form action="#" method="post">
+ <label for="name">Name: </label>
+    <input class="form-control" type ="text" maxlength="100" name="name">
+    <br>
+
+     <label for="description">Description: </label>
+    <textarea class="form-control" maxlength="1000" rows="8" cols="70"  name="description"></textarea>
+    <br>
+
+    <label for="price">Price: </label>
+    <input class="form-control" type ="text" maxlength="10" name="price" >
+    <br>
+
+    <label for="category">Category:</label>
+    <select class="custom-select form-control" name="category">
+        {% for category in categories %}
+            <option value="{{category.id}}">{{category.name}}</option>
+        {% endfor %}
+
+    </select>
+    <br>
+    <button class="btn btn-sucess" type="submit" id="submit" type="submit">
+        <span aria-hidden="true"></span>Create</button>
+
+</form>
+
+    <a href='{{url_for('show_categories')}}'>
+        <button class="btn btn-warning">
+            <span aria-hidden="true"></span> Cancel</button>
+    </a>
+</div>
+</div>
+{% endblock %}

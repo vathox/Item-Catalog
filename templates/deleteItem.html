@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+{% block content %}
+{% include 'header.html' %}
+
+<div class="row">
+ <div class="col-md-12">
+     <h2> Are you sure you want to delete {{item.name}}? </h2>
+ </div>
+
+<div class="col-md-12">
+    <form action="#" method = 'post'>
+
+	<button type="submit" class="btn btn-danger" id="submit">
+	<span aria-hidden="true"></span>Delete</button>
+
+</form>
+<a href = '{{url_for('show_category', category_id=category_id)}}'>
+		<button class="btn btn-primary">
+		<span  aria-hidden="true"></span> Cancel</button>
+	</a>
+</div>
+</div>
+{% endblock %}

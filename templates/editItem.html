@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+{% block content %}
+{% include 'header.html' %}
+
+<div class="row">
+<h3>Edit Item</h3>
+<div class="col-md-12">
+    <form action="#" method="post">
+   <div class="form-group"> <label for="name">Name: </label>
+    <input class="form-control" type ="text" maxlength="100" name="name" value="{{item.name }}">
+    <br>
+</div>
+    <label for="description">Description: </label>
+    <textarea class="form-control" maxlength="1000" rows="8" cols="70"  name="description">{{item.description}}</textarea>
+    <br>
+
+    <label for="price">Price: </label>
+    <input class="form-control" type ="text" maxlength="10" name="price" value="{{item.price}}">
+    <br>
+
+    <button type="submit"  id="submit" class="btn btn-success">
+        <span aria-hidden="true"></span>Save</button>
+    <a href = '{{url_for('show_categories')}}'>
+        <button class="btn btn-primary">
+            <span aria-hidden="true"></span> Cancel</button>
+    </a>
+    </form>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+{% block content %}
+{% include 'header.html' %}
+
+<div class="row">
+<div class="col-md-12">
+    <h2>{{ category.name }}</h2>
+    <br>
+
+</div>
+<div class="col-md-12 item-name">
+    {% for item in items %}
+
+
+    <a href="{{ url_for('show_item', category_id=category.id, item_id=item.id) }}" >{{ item.name }} </a>
+        <br><br>
+    {% endfor %}
+
+    <br>
+<div class="text-right">
+    <a href="{{ url_for('show_categories') }}">Back</a>
+</div>
+</div>
+</div>
+{% endblock %}
