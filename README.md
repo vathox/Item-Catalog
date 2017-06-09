@@ -9,7 +9,7 @@ Registered users  have the ability to post, edit and delete their own items.
 
 ## In This Repo
 
-This project has one main Python module itemCatalogProject.py which runs the Flask application. A SQL database is created using the database_setup.py. The Flask application uses stored HTML (ninja2) with Bootstrap4 templates in the tempaltes folder to build the front-end of the application.
+This project has one main Python module itemCatalogProject.py which runs the Flask application. A SQL database is created using the database_setup.py. The Flask application uses stored HTML (ninja2) with Bootstrap4 templates on the front-end of the application.
 
 
 ## Runnig the app
@@ -22,7 +22,7 @@ This project has one main Python module itemCatalogProject.py which runs the Fla
 6. Navigate to cd/vagrant as instructed in terminal, you will need to intall requests module (`sudo pip install requests`)
 7. Navigate to project directory
 7. Run application  `python itemCatalogProject.py`
-8.  Access the application locally using http://localhost:5000
+8. Access the application locally using http://localhost:5000
 
 
  ## API endpoints: 
